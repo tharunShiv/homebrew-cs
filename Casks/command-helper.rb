@@ -11,4 +11,11 @@ cask "command-helper" do
 
   # CRITICAL: Verify the name inside your DMG matches this exactly
   app "Command Helper.app"
+  
+  caveats <<~EOS
+    "Command Helper" is not notarized by Apple. If you see a "Damaged" error,
+    run this command in your Terminal to allow it to run:
+
+    xattr -cr "/Applications/Command Helper.app"
+  EOS
 end
