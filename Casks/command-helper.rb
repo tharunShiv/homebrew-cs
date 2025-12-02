@@ -1,7 +1,7 @@
 cask "command-helper" do
-  version "1.3.0"
+  version "1.3.4"
   # Replace the line below with the output of the shasum command (see step 4)
-  sha256 "bfa7fb6061c543abca62380ffc564ef40d23ff751faf0c54fe13725e3f5de530"
+  sha256 "56c269218d5f689ae4e07bf655abebf6d0a0210f11a246487e2276d841032e3d"
 
   url "https://github.com/tharunShiv/command-helper/releases/download/v#{version}/Command.Helper-#{version}-arm64.dmg"
 
